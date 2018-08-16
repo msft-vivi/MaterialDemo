@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--设置系统bar 透明-->
+<resources>
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!--android 自带的透明色-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
